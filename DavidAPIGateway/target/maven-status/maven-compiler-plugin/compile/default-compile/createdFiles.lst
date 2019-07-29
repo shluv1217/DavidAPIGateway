@@ -1,0 +1,13 @@
+DavidApp/DavidAppServer/model/Text.class
+DavidApp/DavidAppServer/App.class
+DavidApp/DavidAppServer/service/ImageService.class
+DavidApp/DavidAppServer/App$HotelCommandLineRunner.class
+DavidApp/DavidAppServer/repository/HotelRepository.class
+DavidApp/DavidAppServer/model/Image.class
+DavidApp/DavidAppServer/model/Greeting.class
+DavidApp/DavidAppServer/controller/GreetingController.class
+DavidApp/DavidAppServer/model/Hotel.class
+DavidApp/DavidAppServer/repository/ImageRepository.class
+DavidApp/DavidAppServer/controller/HotelController.class
+DavidApp/DavidAppServer/repository/TextRepository.class
+DavidApp/DavidAppServer/controller/HomeController.class
