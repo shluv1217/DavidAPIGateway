@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DavidApp.DavidAppServer.AppTest" time="0.001" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="DavidApp.DavidAppServer.AppTest" time="0.003" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.2+9-LTS"/>
@@ -63,5 +63,5 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|lx.astxsvc.com|*.lx.astxsvc.com"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testApp" classname="DavidApp.DavidAppServer.AppTest" time="0.001"/>
+  <testcase name="testApp" classname="DavidApp.DavidAppServer.AppTest" time="0.003"/>
 </testsuite>
