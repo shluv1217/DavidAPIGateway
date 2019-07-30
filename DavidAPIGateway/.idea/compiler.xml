@@ -9,8 +9,5 @@
         <module name="DavidAppServer" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="DavidAppServer" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
