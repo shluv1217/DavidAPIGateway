@@ -53,7 +53,8 @@ public class App {
 //        DetectKeyPhrasesResult detectKeyPhrasesResult = comprehendClient.detectKeyPhrases(detectKeyPhrasesRequest);
 //        detectKeyPhrasesResult.getKeyPhrases().forEach(System.out::println);
 //        System.out.println("End of DetectKeyPhrases\n");
-		
+		System.out.println("test");
+		System.out.println("test");
 		SpringApplication.run(App.class, args);
 	}
 	
