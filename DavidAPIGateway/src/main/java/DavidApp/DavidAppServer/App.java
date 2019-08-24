@@ -92,26 +92,26 @@ public class App {
 //	}
 	
 	
-//	@Component
-//	class HotelCommandLineRunner implements CommandLineRunner{
-//
-//	    private final HotelRepository repository;
-//
-//	    public HotelCommandLineRunner(HotelRepository repository){
-//	        this.repository = repository;
-//	    }
-//
-//	    @Override
-//	    public void run(String... strings)throws Exception{
-//	    	
-//	    	System.out.println("test");
-//	    	System.out.println("test");
-//
-//	        Stream.of("Conrad","Hilton","Shilla","Hayatt","Westin","Sangrila").forEach(name-> repository.save(new Hotel(name)));
-//
-//	        repository.findAll().forEach(System.out::println);
-//	    }
-//	}
+	@Component
+	class HotelCommandLineRunner implements CommandLineRunner{
+
+	    private final HotelRepository repository;
+
+	    public HotelCommandLineRunner(HotelRepository repository){
+	        this.repository = repository;
+	    }
+
+	    @Override
+	    public void run(String... strings)throws Exception{
+
+	    	System.out.println("test");
+	    	System.out.println("test");
+
+	        Stream.of("Conrad","Hilton","Shilla","Hayatt","Westin","Sangrila").forEach(name-> repository.save(new Hotel(name)));
+
+	        repository.findAll().forEach(System.out::println);
+	    }
+	}
 	
 	
 //	@Component
